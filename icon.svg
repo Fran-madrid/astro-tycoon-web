@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#2b2f7a"/><stop offset=".6" stop-color="#0d1033"/><stop offset="1" stop-color="#05070f"/></radialGradient>
+    <radialGradient id="rock" cx="36%" cy="32%" r="75%"><stop offset="0" stop-color="#d0a57f"/><stop offset=".5" stop-color="#8a5d40"/><stop offset="1" stop-color="#2e1f18"/></radialGradient>
+    <radialGradient id="cr" cx="60%" cy="65%" r="60%"><stop offset="0" stop-color="#3a271d"/><stop offset="1" stop-color="#6b4630"/></radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset=".5" stop-color="#ff9d4d" stop-opacity=".45"/><stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <g fill="#fff"><circle cx="150" cy="170" r="5"/><circle cx="860" cy="140" r="7"/><circle cx="900" cy="560" r="4"/><circle cx="120" cy="640" r="6"/><circle cx="300" cy="90" r="3"/><circle cx="760" cy="880" r="5"/><circle cx="220" cy="900" r="4"/></g>
+  <circle cx="512" cy="540" r="400" fill="url(#glow)"/>
+  <g transform="translate(112 140) scale(4)">
+    <path d="M100 20C136 16 168 40 179 77c11 37-1 74-31 96-28 20-68 20-97 1C22 155 12 117 22 82 32 46 64 24 100 20Z" fill="url(#rock)"/>
+    <ellipse cx="72" cy="70" rx="17" ry="14" fill="url(#cr)"/>
+    <ellipse cx="132" cy="118" rx="22" ry="18" fill="url(#cr)"/>
+    <ellipse cx="80" cy="140" rx="11" ry="9" fill="url(#cr)"/>
+    <path d="M100 88l9-6 7 8-5 9-10 1z" fill="#ffa24c"/><path d="M152 90l6-3 3 6-5 4z" fill="#ffc07a"/>
+    <path d="M50 104l7-3 4 7-6 4-6-2z" fill="#7fdcff"/><path d="M112 150l6-4 5 5-4 5z" fill="#c084fc"/>
+  </g>
+  <g transform="translate(610 150) rotate(35) scale(5.2)">
+    <path d="M12 2c4 3 5.3 7 4.2 12H7.8C6.7 9 8 5 12 2z" fill="#eef2ff"/><circle cx="12" cy="9" r="2" fill="#38bdf8"/>
+    <path d="M7.8 14l-3 4.5 4-1.2zM16.2 14l3 4.5-4-1.2z" fill="#f43f5e"/><path d="M10 15.5h4L12 22z" fill="#fb923c"/>
+  </g>
+</svg>
